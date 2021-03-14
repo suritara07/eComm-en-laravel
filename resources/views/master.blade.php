@@ -42,22 +42,39 @@
     .trending-image{
         height: 150px;
     }
+    .trending-image:hover{
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 5px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .cartlist-image{
+        height: 100px;
+    }
     .trending-item{
         float: left;
         width: 16%;
     }
     .trending-wrapper{
         margin: 30px;
-        margin-left: 50px;
+        margin-left:80px;
     }
     .detail-img{
         height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .product-name{
         margin-left: 30px;
     }
     .search-box{
         width: 500px !important;
+    }
+    .cart-list-devider
+    {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 </style>
 <script>

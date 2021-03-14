@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<div class="contrainer">
+<div class="contrainer custom-product">
     <div class="row">
         <div class="col-sm-6">
             <img class="detail-img" src="{{$product['gallery']}}" alt="">
@@ -14,7 +14,7 @@
             <br><br>
             <form action="/add_to_cart" method="POST">
                 @csrf
-                <input type="hidden" name="product_id" value="{{$product['price']}}">
+                <input type="hidden" name="product_id" value="{{$product['id']}}">
                 <button class="btn btn-primary">Add to Cart</button>
             </form>
 
