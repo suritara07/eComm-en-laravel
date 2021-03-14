@@ -76,6 +76,10 @@
         margin-bottom: 20px;
         padding-bottom: 20px;
     }
+    .order-text
+    {
+        text-align: center;
+    }
 </style>
 <script>
 
